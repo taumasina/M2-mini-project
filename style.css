@@ -68,9 +68,15 @@ li {
     align-items: center;
 }
 
+/*
+
+ABOUT 
+
+*/
 
 #about {
     padding: 48px 0;
+    background-color: #f8ffdc;
 }
 
 h2 {
@@ -83,16 +89,39 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0%;
+}
+
+.about__img--wrapper {
+    width: 100%;
 }
 
 img {
     width: 100%;
 }
 
-.about__img--wrapper {
-    width: 40%;
+.section__description--wrapper {
+    display: flex;
+    width: 60%;
 }
 
+.about__img--wrapper,
 .section__description--wrapper {
-    width: 100%;   
+    padding: 0 24px;
+}
+
+.section__description--para {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+/*
+
+DISCORD 
+
+*/
+
+#discord {
+    background-color: #cefeff;
 }
